@@ -1,0 +1,22 @@
+.fav-choose {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.fav-choose .label{
+    margin-right: 5px;
+    font-size: 15px;
+    position: relative;
+    top: -3px;
+}
+
+.fav-choose .label.disable{
+    opacity: .5;
+}
+
+.top-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

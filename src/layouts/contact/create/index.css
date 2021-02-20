@@ -1,0 +1,37 @@
+.form-column {
+    max-width: 650px;
+}
+
+.contact-picture {
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #afa2a2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    background: linear-gradient(45deg, #7ab3df, #02243d);
+    color: #fff;
+}
+
+.contact-picture-thumb {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.contact-picture-thumb img{
+    margin-bottom: 20px;
+}
+
+.contact-picture-thumb button{
+    margin-bottom: 20px !important;
+}
+
+.contact-picture span{
+    font-size: 16px;
+}
